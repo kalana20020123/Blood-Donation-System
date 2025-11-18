@@ -1,0 +1,218 @@
+header {
+    background-color: #6f201c;
+    padding: 20px ;
+    color: #fff;
+    position: relative;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    top: 0;
+  }
+  body{
+    background-image: url("blood1.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  main{
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+  
+  
+  .wel{
+    margin-top: 100px;
+  } 
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  .logo img {
+    height: 40px;
+    margin-right: 10px;
+    margin-left: -150px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  form {
+    border: 1px solid #ccc;}
+  
+ 
+footer {
+  background-color: #9d9b9b;
+  padding: 40px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: -25px;
+  width: 100%;
+  }
+  
+  .container {
+    max-width: 100%;
+    margin-top:  auto;
+    height: 10px;
+  }
+  
+  .footer-links a {
+    margin-right: 10px;
+    color: #454444;
+    text-decoration: none;
+   
+  }
+  .footer-info .lgo {
+    margin-top: 10px;
+  }
+  
+  .footer-links {
+    margin-bottom: -40px;
+   
+  }
+  
+  .footer-info img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-info p {
+    margin: 0;
+  }
+  
+  .lgo{
+    margin-left: -2870px;
+    margin-top: 20px;
+    margin-bottom: -50px;
+  }
+  
+  .copy{
+    margin-bottom: 60px;
+  }
+  .imag{
+    margin-left: 125px;
+  }
+  .container{
+    margin-top: 50px;
+    margin-bottom: 25px; 
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #a22727; /* Set the background color */
+    color: rgb(86, 2, 7); /* Set the text color */
+    border: none; /* Remove the button border */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 10px; /* Add a border radius */
+    margin-bottom: 10px; /* Add some spacing */
+  }
+  
+  button:hover {
+    background-color: #bb3d3d; /* Change the background color on hover */
+  }
+  
+  .photos-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-container {
+    margin-bottom: 20px;
+    text-align: center;
+    border: solid rgb(248, 246, 246);
+    padding: 10px;
+    background-color: rgba(248, 246, 246, 0.5);
+    font-size: 20px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-container p {
+    margin-top: auto;
+    margin-bottom: 100px;
+    font-style: italic;
+  }
+  .paragraph-container {
+  border: solid red; /* Border for paragraph container */
+  padding: 10px; /* Optional padding for paragraph container */
+}
+
+.my-button {
+  background-color: #6c0b0b;
+  color: #fdfdfd;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  
+}
+.mybuttons{
+  margin-top: 600px;
+
+}
+
+.mybuttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+
+}
+
+.my-button {
+  margin-bottom: 10px; /* Adjust this value to add spacing between the buttons */
+}
+
+
+
+
+ 

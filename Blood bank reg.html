@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blood Bank Registration</title>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet1.css">
+<style>/* CSS Styles for the Blood Bank Registration Form */
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+    
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    
+    form.bbreg{
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    label.bbreg {
+      display: block;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+    
+    .error {
+      color: red;
+      margin-bottom: 10px;
+    }
+    </style>
+
+</head>
+<body>
+
+    <ul class="menu">
+
+        <li class="menu"> <a href="../Navindu/homepage.html">Home</a> </li>
+        <li class="menu"> <a href="request.html">About</a> </li>
+        <li class="menu"> <a href="Donors.html">Donation</a> </li>
+        <li class="menu"> <a href="Centers.html">View Centers</a> </li>
+        <li class="menu"> <a href="camps.html">View Camps</a> </li>
+        <li class="menu"> <a href="donor_map.html"> Donor map</a></li>
+    </ul>
+    
+
+  <h2>Blood Bank Registration</h2>
+  <form action="bbregister.php" method="POST" class="bbreg">
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required><br><br>
+
+    <label class="bbreg" for="phone">Phone:</label>
+    <input type="text" id="phone" name="phone" required><br><br>
+
+    <label for="name" class="bbreg">Name:</label>
+    <input class="bbreg" type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input class="bbreg" type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input class="bbreg" type="password" id="password" name="password" required><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+<br><br><br>
+
+  <ul class="menu">
+    <li class="menu"><a href="https://www.w3schools.com/">  Contact us </a> </li>
+    <li class="menu"><a href="https://www.w3schools.com/">  Terms and Conditions</a> </li>
+    <li class="menu"><a href="https://www.w3schools.com/"> Cookies</a> </li>
+    <li class="menu"><a href="https://www.w3schools.com/"> Privacy Policy</a> </li> 
+    </ul>
+
+    
+</body>
+</html>

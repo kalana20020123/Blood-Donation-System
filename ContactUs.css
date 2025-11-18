@@ -1,0 +1,173 @@
+body {
+  background-image: url("../feedback page/blood1.jpg");
+  background-repeat: no-repeat ;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+header {
+  background-color: #6f201c;
+  padding: 20px 0;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 960px;
+  margin: auto;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu li a:hover {
+  text-decoration: underline;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 20px; /* Bottom margin */
+     /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: rgb(255,51,0);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    float: right;
+    inline-size: auto;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+   
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2c1;
+    padding: 50px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    
+    
+  }
+  
+  ul .info{
+    display: inline-block;
+    list-style-type: none;
+    
+  }
+
+
+  li .info{
+    width: 100%;
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+  }
+
+  
+  .contactinfo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+
+.container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2c1;
+    padding: 0px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    text-align: center;
+}
+footer {
+  background-color: #b5b3b3;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  height: auto;
+}
+
+.footer-links a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+ 
+}
+
+.footer-links {
+  margin-bottom: -40px;
+ 
+}
+
+.footer-info img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-info p {
+  margin: 0;
+}
+
+.lgo{
+  margin-left: -2870px;
+  margin-top: 20px;
+  margin-bottom: -50px;
+}
+
+.copy{
+  margin-bottom: 60px;
+}
+.imag{
+  margin-left: 400px;
+}
+.img1{
+  margin-left: -200px;
+}

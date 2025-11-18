@@ -1,0 +1,239 @@
+body {
+  background-image: url("bg2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* start editing horizontal menu*/
+ul.menu {
+ float: center;
+ list-style-type: none;
+  margin: 0;
+  padding: 5px 20px; 
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-between; 
+      align-items: center;
+}
+
+li.menu {
+  float: left;
+}
+
+li a {
+	/* When you have li and a together this will work*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px ;  
+  text-decoration: none;
+  padding: 2% 1%;
+
+
+}
+
+
+
+a.button1#butid1 button{
+	
+	    display: inline-block;
+      background-image: linear-gradient(to right, #e61b1b, #c97979 );
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      border: 2px solid #000000 ; 
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+}
+button.button3{
+	  width: 200px ; height:40px;
+	  display: inline-block;
+    background-image: linear-gradient(to right, #e61b1b, #c97979 );
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #000000 ; 
+    border-radius: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+a.button1:hover {
+  background-color: rgb(255, 0, 0);
+}
+.chart {
+	  padding: 5%;
+      width: 25%;
+      height: 200px;
+      border: nones;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center ;
+    }
+
+    .bar {
+      width: 30px;
+      background-color: black;
+      margin-right: 20px;
+    }
+
+
+table.dataPreview{
+      border: 2px solid #000000;
+      padding: 3px;
+      height: 20%;
+	  width: 50%;
+      
+    }
+	
+
+
+.container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  /* Additional styling for the columns */
+}
+
+
+
+/* Reset default table styles */
+table {
+    border-collapse: collapse;
+    width: 70%;
+    
+}
+
+/* Set table borders */
+table.bldmng {
+    border: 1px solid #000000;
+}
+
+/* Style table header */
+table.bldmng th {
+    background-color: #f2f2f2;
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Style table cells */
+table.bldmng td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Style buttons */
+table.bldmng button.p {
+    background-color: #18f118; 
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+table.bldmng button.m {
+  background-color: #ed1010;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+table.bldmng button:hover {
+    background-color: #757575;
+}
+
+button.issue {
+  width:150px;
+  height:50px;
+  background-color:#937c7c;
+  border:#000000;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+}
+button.issue:hover {
+  background-color: #ec1a1a;
+}
+#addblood {
+  width:150px;
+  height:50px;
+  background-color:#22ff1eda;
+  border:2px #000000;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+
+}
+#addblood:hover {
+  background-color: #e52929;
+}
+
+
+div.addbld {
+  width: 300px;
+  margin: 0 auto;
+}
+
+lable.bldfrm {
+  display: block;
+  margin-bottom: 10px;
+}
+
+lable.bldfrm label {
+  font-weight: bold;
+}
+
+.bldfrm input[type="text"],
+.bldfrm input[type="number"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.bldfrm input[type="submit"] {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.bldfrm input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
